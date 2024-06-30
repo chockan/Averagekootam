@@ -1,0 +1,114 @@
+.popup {
+    position: relative;
+    top: 150px;
+    right: 10%;
+    width: 30%;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .segment-name-input {
+    position: relative;
+    bottom: 200px;
+    right: 200px;
+    background-color: #e7e2e2;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nam {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nam input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .nam2{
+    position:relative;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .popup input,
+  .popup select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .popup .schemas {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .popup .schema-dropdown {
+    margin: 5px 0;
+  }
+  
+  .popup .add-schema {
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .popup .add-schema:hover {
+    text-decoration: underline;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .button-group .cancel-button {
+    background-color: #f0f0f0;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .button-group .cancel-button:hover {
+    background-color: #dcdcdc;
+  }
+  
+  .button-group .save-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-group .save-button:hover {
+    background-color: #0056b3;
+  }
+  
